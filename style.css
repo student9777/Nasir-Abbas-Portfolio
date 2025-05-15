@@ -33,32 +33,6 @@ form button:hover { background: linear-gradient(to right, #003366, #0066cc); }
 .profile-img { width: 150px; border-radius: 50%; display: block; margin: 0 auto 1rem; border: 4px solid #3399ff; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
 
 footer { background-color: rgba(0, 0, 0, 0.8); color: #fff; text-align: center; padding: 1.5rem; margin-top: 3rem; font-size: 0.9rem; }
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem auto 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 12px;
-  max-width: 800px;
-}
 
-nav ul li a {
-  background: linear-gradient(to right, #0066cc, #33ccff);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  display: block;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-nav ul li a:hover {
-  background: linear-gradient(to right, #004080, #3399ff);
-  transform: scale(1.05);
-}
 
 
